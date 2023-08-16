@@ -1,8 +1,8 @@
-NAME = ex01
+NAME = ex02
 
 .PHONY: all, fclean, re
 
-SRCS = main.cpp Span.cpp
+SRCS = main.cpp
 
 OBJS = $(SRCS:.c=.o)
 

@@ -39,9 +39,7 @@ class Array
 
         T & operator[](unsigned int i) const
         {
-            if (i < 0)
-                throw std::exception();
-            else if (i >= _size)
+            if (i >= _size)
                 throw std::exception();
             return _array[i];
         }
